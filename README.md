@@ -25,7 +25,7 @@ Este projeto tem como objetivo integrar o banco de dados AdventureWorks do SQL S
 ## Colunas da View VENDAS
 
 Para facilitar a análise dos dados, foi criada a view VENDAS com as seguintes colunas:
-
+```
 CREATE OR ALTER VIEW VENDAS AS
 SELECT
     f.SalesOrderNumber AS 'Numero do Pedido',
@@ -49,6 +49,7 @@ JOIN
     DimProductSubcategory AS ps ON p.ProductSubcategoryKey = ps.ProductSubcategoryKey
 JOIN
     DimProductCategory AS pc ON ps.ProductCategoryKey = pc.ProductCategoryKey;
+```
 
 
 
@@ -90,3 +91,11 @@ Tendências de vendas ao longo do tempo: Ao analisar a receita total online por 
 Análise de vendas por país: Ao analisar a receita e o custo total online por país, podemos identificar quais países têm o maior volume de vendas e onde os recursos estão sendo investidos proporcionalmente. Isso permite uma alocação de recursos mais eficiente e a identificação de mercados que podem ser promissores para expansão.
 Segmentação do mercado por sexo do cliente: Ao analisar o total de vendas online por sexo do cliente, podemos identificar diferenças no comportamento de compra entre homens e mulheres. Essas informações são valiosas para personalização de marketing e campanhas direcionadas.
 Esses são apenas alguns exemplos dos dados relevantes que podem ser extraídos da análise de vendas da AdventureWorks Cycles. Com base nesses insights, é possível tomar decisões informadas para impulsionar o crescimento e o sucesso do negócio.
+
+## Como visualizar o código
+Clone o repositório:
+git clone https://github.com/seu_usuario/nome_do_repositorio.git
+
+Abra o projeto no seu editor de preferência.
+
+Siga as instruções no arquivo README para configurar o ambiente e executar as queries.
