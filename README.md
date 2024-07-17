@@ -60,7 +60,7 @@ Após a criação da view VENDAS, os dados foram importados para o Excel utiliza
 
 ### Dashboard Resultante
 
-![Dashboard de Vendas](imagens-projeto/dashboard.PNG)
+![Dashboard de Vendas](imagens/dashboard.PNG)
 
 ## Screenshots e Exemplos
 
@@ -68,19 +68,19 @@ Após a criação da view VENDAS, os dados foram importados para o Excel utiliza
 
 ### Receita Total versus Custo Total por País
 
-![Receita Total versus Custo Total por País](receita_vs_custo_pais.png)
+![Receita Total versus Custo Total por País](imagens/ReceitaXCusto.PNG)
 
 ### Vendas por Mês
 
-![Vendas por Mês](vendas_por_mes.png)
+![Vendas por Mês](imagens/ReceitaByMes.PNG)
 
 ### Vendas por Categoria
 
-![Vendas por Categoria](vendas_por_categoria.png)
+![Vendas por Categoria](imagens/VendasByCategoria.PNG)
 
 ### Vendas por Gênero
 
-![Vendas por Gênero](vendas_por_genero.png)
+![Vendas por Gênero](imagens/VendasByGenero.PNG)
 
 ## Conclusão
 
