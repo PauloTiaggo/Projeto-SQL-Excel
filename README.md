@@ -70,7 +70,7 @@ Após a criação da view VENDAS, os dados foram importados para o Excel utiliza
 
 ![Receita Total versus Custo Total por País](imagens/ReceitaXCusto.PNG)
 
-### Vendas por Mês
+### Receita por Mês
 
 ![Vendas por Mês](imagens/ReceitaByMes.PNG)
 
@@ -84,12 +84,17 @@ Após a criação da view VENDAS, os dados foram importados para o Excel utiliza
 
 ## Conclusão
 
-Este trabalho demonstra como integrar dados do SQL Server com o Excel para a análise eficaz das vendas, proporcionando insights valiosos para a tomada de decisões. O uso da view VENDAS simplificou o processo de extração de dados e permitiu uma análise mais ágil e visual no Excel.
+Este trabalho demonstra como integrar dados do SQL Server com o Excel para a análise eficaz das vendas, proporcionando insights valiosos para a tomada de decisões. O uso da view **VENDAS** simplificou o processo de extração de dados e permitiu uma análise mais ágil e visual no Excel.
 Através da análise de vendas da AdventureWorks Cycles, podemos extrair alguns insights importantes:
-Desempenho de vendas por categoria de produto: Podemos identificar quais categorias de produto têm maior ou menor desempenho em termos de vendas online. Isso pode ajudar a direcionar esforços de marketing e tomadas de decisão relacionadas à oferta de produtos.
-Tendências de vendas ao longo do tempo: Ao analisar a receita total online por mês do pedido, podemos identificar padrões sazonais ou tendências de crescimento nas vendas ao longo do ano. Essas informações são valiosas para o planejamento estratégico e de estoque.
-Análise de vendas por país: Ao analisar a receita e o custo total online por país, podemos identificar quais países têm o maior volume de vendas e onde os recursos estão sendo investidos proporcionalmente. Isso permite uma alocação de recursos mais eficiente e a identificação de mercados que podem ser promissores para expansão.
-Segmentação do mercado por sexo do cliente: Ao analisar o total de vendas online por sexo do cliente, podemos identificar diferenças no comportamento de compra entre homens e mulheres. Essas informações são valiosas para personalização de marketing e campanhas direcionadas.
+
+**Desempenho de vendas por categoria de produto**: A categoria Accessories, com pouco mais de 36 mil vendas, é responsável por mais da metade do total, enquanto Bikes e Clothing juntas representam cerca de 24 mil vendas.
+
+**Tendências de vendas ao longo do tempo**: Ao analisar a receita total ao longo do ano, podemos identificar uma grande tendência de aumento a partir de setembro, que se estende até dezembro, seguida de uma queda considerável em janeiro. De fevereiro a julho, há uma evolução gradual nos ganhos da empresa.
+
+**Análise de vendas por país**: Ao analisar a receita e o custo total online por país, podemos identificar quais países têm o maior volume de vendas e onde os recursos estão sendo investidos proporcionalmente. Nesse contexto, é notável que Estados Unidos e Austrália assumem o protagonismo dos ganhos e investimentos da empresa.
+
+**Segmentação do mercado por sexo do cliente**: Os dados indicam que a AdventureWorks têm relevância entre ambos os gêneros. Essa informação é especialmente relevante no contexto de segmentação de clientes, haja visto que, nesse caso, o gênero parece não influenciar significativamente as preferencias dos clientes.
+
 Esses são apenas alguns exemplos dos dados relevantes que podem ser extraídos da análise de vendas da AdventureWorks Cycles. Com base nesses insights, é possível tomar decisões informadas para impulsionar o crescimento e o sucesso do negócio.
 
 ## Como visualizar o código
